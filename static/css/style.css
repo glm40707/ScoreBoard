@@ -1,0 +1,173 @@
+html { 
+  background: url(../img/sports-bak.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#homenum {
+  font-family: 'Keania One', cursive;
+}
+
+#awaynum {
+  font-family: 'Keania One', cursive;
+}
+
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.greybox {
+  /* empty-state */
+  position: relative;
+  width: 535px;
+  height: 385px;
+
+  background: #1b244a;
+}
+
+.homeblackbox {
+  /* home-score */
+  position: absolute;
+  width: 155px;
+  height: 120px;
+  left: 82px;
+  top: 125px;
+  background-color: black;
+  display: grid;
+}
+
+.homefont {
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: antiquewhite;
+  text-align: center;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.homenumber {
+  /* font-family: "Cursed Timer ULiL"; */
+  /* font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 127px; */
+  /* or 141% */
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 50px;
+
+  color: #f94f6d;
+  grid-column: 1;
+  grid-row: 1;
+  padding-top: 50px;
+}
+
+/* start away */
+
+.awayblackbox {
+  /* home-score */
+  position: absolute;
+  width: 155px;
+  height: 120px;
+  left: 292px;
+  top: 125px;
+  background-color: black;
+  display: grid;
+}
+
+.awayfont {
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: antiquewhite;
+  text-align: center;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.awaynumber {
+  font-family: "digital-clock-font";
+  /* font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px; */
+  /* or 141% */
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 50px;
+
+  color: #f94f6d;
+  grid-column: 1;
+  grid-row: 1;
+  padding-top: 50px;
+}
+
+.smallbtn1 {
+  width: 40px;
+  height: 20px;
+  border: #f3f4f6;
+  border-width: 2px;
+  border-style: solid;
+  grid-column: 1;
+  grid-row: 2;
+  margin-top: 10px;
+  margin-left: 10px;
+  text-align: center;
+  color: #f3f4f6;
+}
+
+.smallbtn1:hover {
+  background-color: cornflowerblue;
+  cursor: pointer;
+}
+
+.smallbtn2 {
+  width: 40px;
+  height: 20px;
+  border: #f3f4f6;
+  border-width: 2px;
+  border-style: solid;
+  grid-column: 1;
+  grid-row: 2;
+  margin-left: 55px;
+  margin-top: 10px;
+  text-align: center;
+  color: #f3f4f6;
+}
+
+.smallbtn2:hover {
+  background-color: cornflowerblue;
+  cursor: pointer;
+}
+
+.smallbtn3 {
+  width: 40px;
+  height: 20px;
+  border: #f3f4f6;
+  border-width: 2px;
+  border-style: solid;
+  grid-column: 1;
+  grid-row: 2;
+  margin-left: 100px;
+  margin-top: 10px;
+  text-align: center;
+  color: #f3f4f6;
+}
+
+.smallbtn3:hover {
+  background-color: cornflowerblue;
+  cursor: pointer;
+}
